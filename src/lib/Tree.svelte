@@ -7,7 +7,7 @@
 
       setTimeout(() => {
         show2 = true;
-      }, 2000);
+      }, 3000);
     });
 </script>
 {#if show}

@@ -7,6 +7,7 @@
   import Tree from "./lib/Tree.svelte";
   import SpiralScene from "./lib/SpiralScene.svelte";
   import { fade } from "svelte/transition";
+  import Santa from "./lib/Santa.svelte";
 
   let show = $state(false);
   let show2 = $state(false);
@@ -37,6 +38,9 @@
       <Tree {show} />
     </div>
     <Deer show={show2} />
+  </div>
+  <div class="z-10">
+    <Santa />
   </div>
 </main>
 
